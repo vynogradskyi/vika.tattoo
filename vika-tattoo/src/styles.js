@@ -4,6 +4,7 @@ export const theme = {
     colors: {
         white: '#ffffff',
         lightGrey: '#e5e5e5',
+        lighterGrey: '#f7f7f7',
         grey: '#707070',
         darkGrey: '#aaaaaa',
         black: '#000000'
@@ -31,7 +32,7 @@ export const setUpGlobals = () => {
         height: 100%;
       }
       body{
-        background-color: ${theme.colors.lightGrey};
+        background-color: ${theme.colors.lighterGrey};
         margin: 0;
         padding: 0;
         box-sizing: border-box;
