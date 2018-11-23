@@ -1,0 +1,19 @@
+.async-image-dashboard {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  justify-content: space-between;
+  position: relative;
+  flex: 1; }
+  .async-image-dashboard .image-dashboard-item {
+    flex-basis: 300px;
+    max-height: 300px;
+    flex-grow: 1;
+    margin: 10px; }
+    .async-image-dashboard .image-dashboard-item img {
+      width: 100%;
+      object-fit: cover;
+      height: 100%; }
+  .async-image-dashboard .image-dashboard-item:empty {
+    height: 0; }

@@ -1,0 +1,21 @@
+#mainHeader ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  border-bottom: 1px solid #525252;
+  padding-bottom: 5px;
+  margin-bottom: 10px; }
+  #mainHeader ul li {
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 1.1em; }
+    #mainHeader ul li a, #mainHeader ul li a:visited, #mainHeader ul li a:active {
+      text-decoration: none; }
+    #mainHeader ul li .active-link {
+      text-decoration: underline; }
+    #mainHeader ul li a:hover {
+      text-decoration: underline; }
