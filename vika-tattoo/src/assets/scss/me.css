@@ -11,12 +11,13 @@
     flex-grow: 1;
     flex: 20%;
     max-width: 35%;
-    padding: 0 60px 20px 0; }
+    padding: 0 50px 0 0; }
     #me .main-photo-wrapper .main-photo {
       width: 100%; }
   #me .info-wrapper {
     flex: auto;
-    padding-left: 10px; }
+    padding-left: 20px;
+    border-left: 1px solid #2f3640; }
   #me #contacts p {
     margin: 0;
     line-height: 1.5; }
